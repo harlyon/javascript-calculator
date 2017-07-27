@@ -1,0 +1,91 @@
+body {
+  background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMuLxMYEm1cWPLRlO8Fm-FzM_j6NMmqZRBf9nVrT29Q9OU58F4zg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+  max-height: 100px;
+}
+
+p {
+  font-family: 'Helvetica', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0.8em;
+  color:black;
+}
+
+#calculator {
+  border: 2px solid white;
+  margin: 75px auto;
+  width: 297px;
+  height: 510px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#screen {
+  width: 278px;
+  height: 80px;
+  margin: 0px 0px 8px 8px;
+  border: 1px blue;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  font-size: 2em;
+}
+
+.buttons {
+  margin-left: 7px;
+}
+
+.btn {
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+  border-radius: 5px;
+  color: #00005d;
+  font-size: 1.5em;
+  width: 65px;
+  height: 65px;
+  margin: 1px;
+  background-color: #fff;
+  border: 1px solid #404040;
+}
+
+.btnTwo {
+  background-color: #f2f2f2;
+}
+
+.wideZero {
+  width: 136px;
+}
+
+.wideEqual {
+  position: absolute;
+  height: 132px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+button:hover {
+  -webkit-transition: none;
+  transition: none;
+  background-color: #ffa64d;
+  border: 2px solid #fff2e6;
+}
+
+button:active {
+  -webkit-transition: none;
+  transition: none;
+  background-color: #FF8C00;
+}
